@@ -1,0 +1,95 @@
+
+.box-Principal-Login-User{
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+}
+
+.boxCardLoginUser{
+
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20vh;
+}
+
+
+.cardStyle{
+
+    width: 50vb;
+    height: 100%;
+    margin-top: 8vh;
+    border-radius: 20px;
+    background-color:transparent;
+    backdrop-filter: blur(80px);
+    box-shadow:  0px 0px 10px rgb(255, 255, 255); 
+}
+
+.rowLoginStile{
+    width: 100%;
+    margin: 0;
+}
+.boxLoginTitulo{
+    width: 100%;
+    
+}
+
+.textTtileLoginUser{
+    font-size: 100px;
+    font-family: 'Playfair Display', serif;
+}
+.inputs{
+    margin-top: 30px;
+}
+
+.setButonCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.btnStyle{
+    box-shadow:  0px 0px 10px rgb(255, 255, 255); 
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+}
+
+.btnStyle:hover{
+    background-color: rgb(228, 209, 209);
+
+
+}
+
+.textCardTitle{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.styleFont{
+
+    font-family: 'Playfair Display', serif;
+}
+.aStyle{
+    text-decoration: none;
+    color: white;
+}
+
+.aStyle:hover{
+    color: rgb(190, 155, 155);
+}
+
+.withUndercor{
+    text-decoration: underline;
+}
+
+
+
+@media(max-width:568px){
+    .textTtileLoginUser{
+        font-size: 420%;
+    }
+}
+

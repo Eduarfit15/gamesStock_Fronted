@@ -1,0 +1,224 @@
+
+.BoxPrincipalCat,.cartImg{
+    width: 100%;
+   
+}
+.BoxPrincipalBrowser{
+    width: 100%;
+    
+}
+.BoxPrincipalBrowser{
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 7%);
+}
+
+.textCatalgo{
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    
+}
+
+
+
+
+
+
+.inputBrow{
+
+    width: 100%;
+    height: 30%;
+    margin-top: 6vh;
+    border-radius: 15px;
+    margin-left: 1.3vh;
+
+}
+
+.canPro{
+
+    margin-top: 6.5vh;
+}
+
+.cartP{
+
+    width: 20%;
+    height: 40%;
+    margin-top: 5vh;
+}
+
+
+@media(max-width:550px){
+
+    .textCatalgo{
+        font-size: 8vh;
+    }
+
+}
+
+/*aside*/
+.wrapper{
+    width: 100%;
+}
+
+
+.boxDivisionCate{
+    width: 100%;
+}
+.boxCat{
+    
+    width: 100%;/*coming soon*/
+    padding-top: 40%;
+    padding-bottom: 36%;
+    background: rgb(0,0,0);
+
+
+}
+
+.backside{
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 92%, rgba(255,255,255,1) 100%);
+}
+
+.boxCatbox{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.groupCart{
+    
+   
+    width: 100%;
+    padding: 0;
+    list-style-type:none;
+   
+    
+}
+
+.opCart{
+    
+    width: 100%;
+    
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.btnOP{
+   
+    color: white;
+    width: 100%;
+    appearance: none;
+    border: none; 
+    background-color: transparent;
+    box-shadow: inset 0 0 0 0 rgb(0, 0, 0);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.btnOP:hover{
+
+    box-shadow: inset 0 100px 0 0 rgb(255, 255, 255);
+    color: black;
+   
+}
+
+.cardEntire{
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.5);
+    height: 60vh;
+}
+
+
+
+
+.sidebarRow{
+    width: 100%;
+    margin: 0;
+}
+
+.cartCatalog{
+    margin: 0;
+}
+
+.seleccionado {
+    width: 100%;
+    appearance: none;
+    border: none; 
+    background-color: #ffffff; /* Color de fondo cuando está seleccionado */
+  }
+
+  .btnCardComprar{
+    font-weight: bold;
+    width: 120px;
+    padding: 5px 10px 5px 10px;
+    color: black;
+  border: 4px solid rgb(83, 8, 84);
+  border-radius: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 rgb(199, 12, 202);
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  }
+
+  .btnCardComprar:hover{
+    color: white;
+    box-shadow: inset 0 100px 0 0 rgb(83, 8, 84);
+  }
+
+
+  .btnCardComprar1{
+    font-weight: bold;
+    width: 120px;
+    padding: 5px 10px 5px 10px;
+    color: black;
+  border: 4px solid rgb(23, 156, 78);
+  border-radius: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 rgb(255, 255, 255);
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  }
+
+  .btnCardComprar1:hover{
+    color: white;
+    box-shadow: inset 0 100px 0 0 rgb(24, 6, 24);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .imgCardOp{
+
+    width: 100%;
+    height: 29vh;
+  }
+
+
+
+
+
+
+
+ @media(max-width:1200px){
+
+
+    .boxCat{
+        padding: 25px 0 25px 0;
+    }
+ }
+

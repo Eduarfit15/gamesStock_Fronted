@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    margin: o;
+    padding: 0;
+
+}
+.BoxCartPrincipal{
+    position: relative;
+    z-index: 1;
+}
+.BoxCart{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.tamC{
+    width: 100%;
+    margin: 0;
+}
+
+.contornoBox{
+
+    border-radius: 20px;
+}
+
+.backColorCard{
+
+    background-color: white;
+    box-shadow:  0px 0px 150px rgba(60, 87, 76, 0.5); 
+}
+
+.btnCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bcakInfo{
+    background-color: aqua;
+}
+
+.backColorCardInfo{
+
+    background-color: white;
+    box-shadow: inset 0px 0px 100px rgba(93, 135, 106, 0.5); 
+    border-radius: 20px;
+
+}
+
+.letraCart{
+
+    font-size: 23px;
+    font-family: 'Playfair Display', serif;
+}
+
+.tamImgCart{
+    width: 100%;
+    height: 30vh;
+}
+
+
+
+.boxTamBtnCart{
+
+    width: 100%;
+
+  
+}
+
+.tamTrash{
+    width: 100%;
+    height: 8vh;
+}
+
+.textNoCart{
+
+    font-size: 10vh;
+    font-family: 'Playfair Display', serif;
+}

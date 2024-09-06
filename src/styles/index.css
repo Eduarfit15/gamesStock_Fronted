@@ -1,0 +1,600 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+#particles-js{
+
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+#particle-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+}
+
+#particle-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegúrate de que el canvas quede detrás de otros elementos */
+}
+
+  
+
+/*
+
+NavBar estyle
+
+*/
+
+.Navbar-box{
+
+    width: 100%;
+    height: 10%;
+    
+}
+
+.imgNav{
+
+    width: 40px;
+    object-fit: cover;
+    filter: invert(100%);
+} 
+
+.spaceContenido{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box2-navbar{
+    width: 14rem;
+}
+
+
+@media(min-width:992px){
+
+    .loginSpace{
+        margin-right: 80%;
+    }
+    .spaceContenido{
+        margin-left: 3%;
+    }
+    
+}
+
+@media(max-width:992px){
+
+    .loginSpace{
+
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .box2-navbar{
+        width: 100%;
+    }
+
+    
+    
+}
+
+
+.colorNav{
+
+    background-color: black !important;
+    position: fixed !important;
+    width: 100%;
+    z-index: 100;
+   
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%); /* Invierte los colores del ícono */
+  }
+
+
+  .options:hover{
+
+    color: bisque !important;
+  }
+
+  .buttonlog{
+    color: black !important;;
+    border-radius: 6px;
+    padding: 3px 20px 3px 20px !important;
+    background-color: white;
+   
+  }
+
+
+  /*
+  
+  Welcome styles
+  
+  */
+
+
+.hola{
+    
+    width: 100%;
+
+    height: 80rem;
+
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 88%, rgba(255,255,255,1) 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+   /*  box-shadow: 0 0 60px rgba(104, 7, 214, 0.952);  */
+    padding: 0;
+
+    margin-bottom: 200px;
+    margin-top: 20px;
+}
+.textWelcome{
+    width: 100%;
+    padding: 0;
+
+    
+    
+    
+}
+.imgWelcome{
+    backdrop-filter: blur(18px);
+    box-shadow: 0px 0px 60px rgba(250, 5, 181, 0.5); 
+    width: 60%;
+    border-radius: 20px;
+}
+
+.up{
+    width: 100%;
+    margin-top: 10px!important;
+}
+.btnWelcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+
+    
+}
+
+.textWelcomeh1{
+
+    width: 100%;
+    font-size: 150px !important;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.boxh1Text,.textWelcomeh1,.textbox{
+    padding: 0;
+    margin: 0;
+}
+
+.textWelcomeh2{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px !important;
+}
+
+@media (min-width: 768px) {
+    .textWelcomeh1 {
+      font-size: 10vw; /* Ajusta el tamaño del texto para pantallas más grandes */
+    }
+    
+  }
+  
+  /* Media query para tamaños de pantalla muy pequeños */
+  @media (max-width: 792px) {
+    .textWelcomeh1 {
+      font-size: 10vw !important; /* Ajusta el tamaño del texto para pantallas muy pequeñas */
+    }
+
+    .textWelcomeh2 {
+        font-size: 5vw !important; /* Ajusta el tamaño del texto para pantallas muy pequeñas */
+      }
+    .imgWelcome{
+        width: 100%;
+    }
+
+    
+
+    .hola{
+        height: 60rem;
+    }
+  }
+
+  
+
+
+
+.btnNomC{
+    font-weight: bold;
+    width: 120px;
+    padding: 5px 10px 5px 10px;
+    color: black;
+  border: 4px solid rgb(199, 12, 202);
+  border-radius: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 rgb(199, 12, 202);
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.btnNomC:hover{
+
+    
+    box-shadow: inset 0 100px 0 0 rgb(199, 12, 202);
+  
+}
+
+/*
+
+Carousel Options
+
+*/
+
+.box-text-Games{
+
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.textGames{
+
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+}
+
+.box-PrincipalCarousel{
+    margin-bottom: 100px;
+}
+
+
+
+
+@media(max-width:798px){
+
+    .textGames{
+        font-size: 10vw !important;
+    }
+
+}
+
+
+/*
+
+Categories
+
+*/
+
+
+.backCard{
+
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    
+}
+
+.cardBox{
+    width: 100%;
+    margin-top: 3%;
+    background-color: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(18px);
+    box-shadow: inset 0px 0px 100px rgba(150, 150, 150, 0.5); 
+}
+
+.imgCategories{
+    width: 100%;
+    height: 25rem !important;
+    
+}
+
+.buttonCa{
+    
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    padding: 5px 30px 5px 30px;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(199, 12, 202);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    
+}
+
+.buttonCa:hover{
+
+    
+    box-shadow: inset 0 100px 0 0 rgb(199, 12, 202);
+  
+}
+
+.groupcards{
+
+    padding-top: 5%;
+    padding-bottom: 7%;
+    
+}
+
+.categories{
+width: 100%;
+}
+
+.cate{
+    width: 100%;
+}
+
+.boxTextCate{
+    width: 100%;
+    padding: 20px;
+}
+.textOptionCate{
+    font-family: 'Playfair Display', serif;
+}
+
+.text-Cate{
+
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    margin-top: 20px;
+    
+}
+
+@media(max-width:519px){
+
+     .text-Cate{
+        font-size: 15vw;
+     }   
+
+}
+
+
+
+/*
+
+About Us
+
+*/
+
+.boxAboutGeneral,.boxtextoAbout{
+
+    padding: 0;
+    margin: 0;
+}
+
+.boxImgAbout.boxtextoAbout{
+    width: 100%;
+}
+
+.imgAbout{
+
+    width: 100%;
+}
+
+.boxtextoAbout{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principalBoxAbout{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #0D0009;
+}
+
+.titleAbout,.textAbout,.buttonAbout{
+
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+.titleAbout{
+
+    font-size: 60px;
+}
+
+.textAbout{
+    font-size: 20px;
+}
+
+
+.buttonAbout{
+
+    font-weight: bold;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(198, 23, 143);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.buttonAbout:hover{
+    box-shadow: inset 0 100px 0 0 rgb(172, 35, 172);
+  
+}
+
+.boxtextoAbout{
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 60px rgba(70, 60, 68, 0.5);
+
+}
+
+
+
+/* Next Premiers*/
+
+
+
+.boxNE{
+
+    width: 100%;
+    height: 100%;
+    
+   
+   background-size: cover;
+   background-position: center;
+}
+
+
+
+.backImage{
+
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+    background-position: center;
+
+    filter: brightness(20%);
+
+}
+
+.boxTextPremiers,.groupcardsPremiers{
+   
+    width: 100%;
+    
+}
+
+
+
+.textTtitlePremier{
+
+    color: white;
+    font-size: 100px;
+
+    font-family: 'Playfair Display', serif;
+}
+
+
+.cardBoxPremiers{
+
+
+    background-color: transparent;
+    border-radius: 20px;    
+    box-shadow: inset 0px 0px 100px rgba(255, 255, 255, 0.5);
+    height: 500px;
+}
+
+.imgPremiers{
+    border-radius: 20px;
+}
+
+
+.buttonPremier{
+
+    font-weight: bold;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(0, 0, 0);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.buttonPremier:hover{
+    box-shadow: inset 0 100px 0 0 rgb(255, 255, 255);
+    
+  
+}
+
+
+@media(max-width:768px){
+
+    .textTtitlePremier{
+        font-size: 15vw; 
+    }
+
+}
+
+@media(max-width:391px){
+
+    .textTtitlePremier{
+        font-size: 15vw;
+    }
+
+}
+
+
+.loader {
+    display: block;
+    width: 84px;
+    height: 84px;
+    position: relative;
+  }
+  
+  .loader:before , .loader:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #FFF;
+    transform: translate(-50% , -100%)  scale(0);
+    animation: push_401 2s infinite linear;
+  }
+  
+  .loader:after {
+    animation-delay: 1s;
+  }
+  
+  @keyframes push_401 {
+    0% , 50% {
+      transform: translate(-50% , 0%)  scale(1)
+    }
+  
+    100% {
+      transform: translate(-50%, -100%) scale(0)
+    }
+  }
+
